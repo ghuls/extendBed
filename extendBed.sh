@@ -14,8 +14,8 @@
 # Or:
 #      export MAWK=/some/path/to/mawk
 #      ./extendBed.sh
-trash="${MAWK:='mawk'}";
-trash="${GAWK:='gawk'}";
+trash=${MAWK:='mawk'};
+trash=${GAWK:='gawk'};
 
 # Try to use the following awk variants in the following order:
 #   1. mawk
